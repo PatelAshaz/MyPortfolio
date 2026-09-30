@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashaz Shakir Patel - Portfolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Oswald:wght@400;500;700&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Scroll Animation -->
+    <div class="background-canvas">
+        <canvas id="scrollCanvas"></canvas>
+    </div>
+    <div class="bg-overlay"></div>
+
+    <div class="content-wrapper">
+        <!-- Navigation -->
+        <nav>
+            <div class="logo">ASHAZWEB</div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="https://github.com/PatelAshaz" target="_blank" rel="noopener noreferrer" class="btn">GitHub <span
+                    class="btn-icon">↗</span></a>
+        </nav>
+
+        <!-- 1. Home Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg-text-wrapper">
+                <p class="hero-top-text">Hi I Am Ashaz!!!</p>
+                <h1 class="hero-bg-text">Ashaz Shakir Patel</h1>
+            </div>
+
+            <div class="hero-content">
+                <div class="hero-left">
+                    <h4>UG Student in Computer Engineering</h4>
+                    <h1>Quite inquisitive learner who loves to build and explore</h1>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn">Get in Touch <span class="btn-icon">↗</span></a>
+                        <a href="#projects" class="btn-outline">View My Work ↘</a>
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <div class="glass-card">
+                        <div class="avatars">
+                            <div class="avatar" style="background: #eb5939;"></div>
+                            <div class="avatar" style="background: #3498db;"></div>
+                            <div class="avatar" style="background: #2ecc71;"></div>
+                        </div>
+                        <p><strong>Driven by Curiosity</strong><br>Solving everyday real-world engineering problems.</p>
+                        <div class="tags">
+                            <span class="tag">Problem Solver</span>
+                            <span class="tag">Tech Enthusiast</span>
+                            <span class="tag">Mumbai, IN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. About Section -->
+        <section id="about" class="about-section">
+            <div class="section-label">About Me</div>
+            <div>
+                <p class="about-text">
+                    I am Ashaz Patel, a Computer Engineering student at Rizvi College of Engineering in Mumbai, driven
+                    by a hands-on passion for technology and a strong sense of community responsibility. I love
+                    converting technical concepts into practical solutions that can create positive social impact.
+                </p>
+                <div class="hero-buttons">
+                    <a href="tel:9082358858" class="btn">Call: +91 9082358858 <span class="btn-icon">↗</span></a>
+                    <a href="https://github.com/PatelAshaz" target="_blank" rel="noopener noreferrer"
+                        class="btn-outline">GitHub Profile ↗</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="section-label">Technical Stack & Learning Journey</div>
+            <h2>Core Competencies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-category">Frontend & Web</span>
+                    <h3>HTML5 & Modern Web</h3>
+                    <p>Building semantic web layouts, structuring accessible user interfaces, and exploring interactive
+                        styles.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-category">Problem Solving</span>
+                    <h3>Python</h3>
+                    <p>Writing clean scripts, prototyping ideas rapidly, data handling, and automation basics.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-category">Core Programming</span>
+                    <h3>Java</h3>
+                    <p>Object-Oriented Programming (OOP), modular architecture, data structures, and algorithmic logic.
+                    </p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-category">Systems & Performance</span>
+                    <h3>C++</h3>
+                    <p>High-efficiency computing, memory control concepts, system fundamentals, and core logic building.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="projects-header">
+                <div class="section-label">Engineering Innovations</div>
+                <h2>Selected Work</h2>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image img1"></div>
+                    <div class="project-info">
+                        <h3>Portable Milk Chilling Can for Small-Scale Farmers</h3>
+                        <p>Developed for the Smart India Hackathon (SIH) — an energy-efficient chilling system designed
+                            to prevent milk spoilage for dairy farmers without immediate cold-chain access.</p>
+                        <span class="project-tag">SIH Innovation / Hardware & Tech</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image img2"></div>
+                    <div class="project-info">
+                        <h3>Personal Interactive Portfolio</h3>
+                        <p>A canvas-driven, dark-themed responsive portfolio presenting my software engineering profile,
+                            skill stack, and live contact pipeline.</p>
+                        <span class="project-tag">Web Development</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="contact-header">
+                <div class="section-label">Get In Touch</div>
+                <h2>Let's Connect</h2>
+                <p>Feel free to reach out for collaborations, project opportunities, or engineering discussions.
+                    Messages will be routed straight to my inbox.</p>
+            </div>
+
+            <div class="contact-meta">
+                <p><strong>Email:</strong> <a href="mailto:gladiator5995@gmail.com">gladiator5995@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:9082358858">+91 9082358858</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/PatelAshaz" target="_blank"
+                        rel="noopener noreferrer">github.com/PatelAshaz</a></p>
+            </div>
+
+            <!-- Form configured with Formspree for direct email routing to gladiator5995@gmail.com -->
+            <form id="contactForm" class="contact-form" action="https://formspree.io/f/xbjnbqko" method="POST"
+                novalidate>
+                <input type="hidden" name="_to" value="gladiator5995@gmail.com">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Ashaz Patel" autocomplete="name">
+                    <span class="error-msg" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="_replyto" placeholder="you@example.com" autocomplete="email">
+                    <span class="error-msg" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Project / Collaboration Opportunity">
+                    <span class="error-msg" id="subjectError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5"
+                        placeholder="Share your message or opportunity details..."></textarea>
+                    <span class="error-msg" id="messageError"></span>
+                </div>
+
+                <div class="form-status" id="formStatus" aria-live="polite"></div>
+
+                <button type="submit" class="btn" id="submitBtn">
+                    Send Message <span class="btn-icon">↗</span>
+                </button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <h1>Building purposeful engineering solutions with impact.</h1>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
